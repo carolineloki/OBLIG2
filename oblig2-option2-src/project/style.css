@@ -24,11 +24,11 @@ header h1 {
     size: 4rem;
 }
 
+header h2{
     font-family: Montserrat, sans-serif;
     size: 2.2rem;
 }
 
-<<<<<<< Updated upstream
 header h3 {
     font-family: Montserrat, sans-serif;
 }
@@ -37,8 +37,6 @@ p {
     max-width: 100ch;
     line-height: 1.5;
 }
-
-<<<<<<< HEAD
 header {
     height: 55vh;
     background-image: url(./assets/img/studentsbg.png);
