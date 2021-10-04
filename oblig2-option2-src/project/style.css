@@ -28,8 +28,7 @@ p {
     line-height: 1.5;
 }
 
-header {
-    height: 55vh;
+body {
     background-image: url(./assets/img/studentsbg.png);
     background-size: 100% 100%;
     width: 1500px;
@@ -39,6 +38,8 @@ header {
 }
 
 header > div {
+    height: 55vh;
+    width: 70ch;
     text-align: center;
     background-color: #c5192d;
     padding-top: 4rem;
