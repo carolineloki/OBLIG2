@@ -8,27 +8,30 @@
     src: url(./assets/fonts/Montserrat-Bold.ttf);
 }
 
-.header {
+header {
     height: 55vh;
-    background-image: url(./assets/img/studentsbg.png); position: sticky; top: 0; 
+    background-image: url(./assets/img/studentsbg.png); 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
 }
 
-.header h1 {
+header h1 {
     font-family: Montserrat, sans-serif;
     size: 4rem;
 }
 
-.header h2 {
+header h2 {
     font-family: Montserrat, sans-serif;
     size: 2.2rem;
 }
 
-.header h3 {
+header h3 {
     font-family: Montserrat, sans-serif;
 }
 
-.p {
-    max-width: 70ch;
+p {
+    max-width: 100ch;
     line-height: 1.5;
 }
 
