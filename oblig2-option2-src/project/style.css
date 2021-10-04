@@ -1,0 +1,15 @@
+* {
+    background-image: linear-gradient(135deg, #F5F7FA 0%, #C3CFE2 100%); 
+}
+
+@font-face {
+    font-family: Lato, sans-serif;
+    src: url();
+    font-size: 14px;
+}
+
+.header h1 {
+    font-family: Montserrat, sans-serif;
+    src: url(./assets/fonts/Montserrat-Bold.ttf);
+    size: 4rem;
+}
