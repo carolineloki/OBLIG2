@@ -14,8 +14,8 @@ header {
     background-attachment: fixed;
     background-repeat: no-repeat;
     margin-top: 0;
-    width: max-content;
-
+    background-position: center;
+    text-align: center;
 }
 
 header h1 {
