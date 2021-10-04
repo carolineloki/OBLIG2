@@ -9,16 +9,6 @@
     font-size: 14px;
 }
 
-header {
-    height: 55vh;
-    background-image: url(./assets/img/studentsbg.png); 
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    margin-top: 0;
-    background-position: center;
-
-}
-
 header h1 {
     font-family: Montserrat, sans-serif;
     size: 4rem;
@@ -46,9 +36,4 @@ header {
     background-position: center top;
     text-align: center;
     background-color: #c5192d;
-}
-
-.p {
-    max-width: 70ch;
-    line-height: 1.5;
 }
