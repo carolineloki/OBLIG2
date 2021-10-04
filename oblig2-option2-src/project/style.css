@@ -6,10 +6,7 @@
 @font-face {
     font-family: Montserrat, sans-serif;
     src: url(./assets/fonts/Montserrat-Bold.ttf);
-<<<<<<< Updated upstream
-=======
     font-size: 14px;
->>>>>>> Stashed changes
 }
 
 header {
@@ -27,11 +24,6 @@ header h1 {
     size: 4rem;
 }
 
-<<<<<<< Updated upstream
-header h2 {
-=======
-.header h2 {
->>>>>>> Stashed changes
     font-family: Montserrat, sans-serif;
     size: 2.2rem;
 }
@@ -46,7 +38,18 @@ p {
     line-height: 1.5;
 }
 
-=======
+<<<<<<< HEAD
+header {
+    height: 55vh;
+    background-image: url(./assets/img/studentsbg.png);
+    background-size: 100% 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center top;
+    text-align: center;
+    background-color: #c5192d;
+}
+
 .header h3 {
     font-family: Montserrat, sans-serif;
 }
@@ -55,4 +58,3 @@ p {
     max-width: 70ch;
     line-height: 1.5;
 }
->>>>>>> Stashed changes
