@@ -27,13 +27,26 @@ p {
     max-width: 100ch;
     line-height: 1.5;
 }
+
 header {
     height: 55vh;
     background-image: url(./assets/img/studentsbg.png);
     background-size: 100% 100%;
+    width: 1500px;
     background-size: cover;
     background-attachment: fixed;
     background-position: center top;
     text-align: center;
+}
+
+header > div {
     background-color: #c5192d;
+    padding-top: 4rem;
+}
+
+#intro-container {
+    background-color: #c5192d;
+    width: 350px;
+    padding: 10px;
+    margin: 5px;
 }
