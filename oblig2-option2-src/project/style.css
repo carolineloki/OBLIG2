@@ -1,6 +1,8 @@
 main {
     background-image: linear-gradient(135deg, #F5F7FA 0%, #C3CFE2 100%); 
     font-family: Lato, sans-serif;
+    box-shadow: 0 0 1px 0 darkgray;
+    background-color: whitesmoke;
 }
 
 @font-face {
@@ -35,6 +37,8 @@ body {
     background-size: cover;
     background-attachment: fixed;
     background-position: center top;
+    margin: 0;
+    padding: 0;
 }
 
 header > div {
@@ -43,11 +47,13 @@ header > div {
     text-align: center;
     background-color: #c5192d;
     padding-top: 4rem;
+    
 }
 
-#intro-container {
+main > #intro-container {
     background-color: #c5192d;
     width: 350px;
     padding: 10px;
     margin: 5px;
 }
+
