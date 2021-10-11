@@ -1,59 +1,126 @@
-main {
-    background-image: linear-gradient(135deg, #F5F7FA 0%, #C3CFE2 100%); 
-    font-family: Lato, sans-serif;
-    box-shadow: 0 0 1px 0 darkgray;
-    background-color: whitesmoke;
-}
-
-@font-face {
-    font-family: Montserrat, sans-serif;
-    src: url(./assets/fonts/Montserrat-Bold.ttf);
-    font-size: 14px;
-}
-
-header h1 {
-    font-family: Montserrat, sans-serif;
-    size: 4rem;
-}
-
-header h2{
-    font-family: Montserrat, sans-serif;
-    size: 2.2rem;
-}
-
-header h3 {
-    font-family: Montserrat, sans-serif;
-}
-
-p {
-    max-width: 70ch;
-    line-height: 1.5;
+#grad {
+    background-image: linear-gradient(135deg,
+    #f5f7fa 0%, #c3cfe2 100%);
 }
 
 body {
     background-image: url(./assets/img/studentsbg.png);
-    background-size: 100% 100%;
-    width: 1500px;
-    background-size: cover;
+    background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: center top;
-    margin: 0;
+    background-position: top center;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    font-size: 1.2rem;
+    margin: 100px 250px 50px 250px;
+}
+
+@font-face {
+    font-family: Montserrat;
+    src: url(Montserrat-Bold.ttf);
+}
+
+h1, h2, h3 {
+    font-family: Montserrat, sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 2.2rem;
+}
+
+main > p {
+    max-width: 70ch;
+    line-height: 1.5; 
+}
+
+header {
+    height: 55vh;
     padding: 0;
 }
 
-header > div {
-    height: 55vh;
-    width: 70ch;
-    text-align: center;
+header > div{
     background-color: #c5192d;
-    padding-top: 4rem;
-    
+    display: block;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    color: white;
 }
 
-main > #intro-container {
+main {
+    background-color: whitesmoke;
+    box-shadow: 0 0 1px 0 darkgrey;
+}
+
+
+#intro-container {
+    width: 75%;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+#intro-container > div:first-of-type {
     background-color: #c5192d;
+    width: 65%;
+    float: left;
+    text-align: left;
+
+}
+
+#intro-container > div:last-of-type {
+    width: 350px;
+    float: right;
+
+}
+
+article {
+    display: inline-block;
+}
+
+article:nth-child(even) {
+    width: 75%;
+}
+
+article:nth-child(even) > div {
+    clear: both;
+    padding: 10px;
+    margin: 10px;
+    width: 350px;
+    float: left;
+}
+
+article:nth-child(even) > img {
+    width: 40%;
+    height: auto;
+    float: right;
+    padding: 10px;
+    margin: 10px;
+}
+
+article:nth-child(3) > img {
+    clear: both;
+    width: 40%;
+    height: auto;
+    float: left;
+    padding: 10px;
+    margin: 10px;
+}
+
+article:nth-child(3) > div {
     width: 350px;
     padding: 10px;
-    margin: 5px;
+    margin: 10px;
+    float: right;
+}
+
+footer {
+    clear: both;
+    background-color: #c5192d;
+    width: 75%;
 }
 
