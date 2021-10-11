@@ -1,18 +1,13 @@
-#grad {
-    background-image: linear-gradient(135deg,
-    #f5f7fa 0%, #c3cfe2 100%);
-}
+
 
 body {
-    background: url(./assets/img/studentsbg.png);
-    background-repeat: no-repeat;
-    background-position: top center;
-    background-size: 100% 55vh;
-    box-shadow: darkgray;
+    background: linear-gradient(135deg,
+    #f5f7fa 0%, #c3cfe2 100%);
     font-family: 'Lato', sans-serif;
     font-size: 14px;
     font-size: 1.2rem;
-    margin: 100px 150px 10px 150px;
+    max-width: 70ch;
+    line-height: 1.5; 
 }
 
 @font-face {
@@ -32,21 +27,25 @@ h2 {
     font-size: 2.2rem;
 }
 
-main > p {
-    max-width: 70ch;
-    line-height: 1.5; 
-}
 
 header {
     height: 55vh;
-    padding: 0;
+    background: url(./assets/img/studentsbg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+    background-size: cover;
+    width: 100vw;
+    padding-top: 4rem;
 }
 
 header > div{
     background-color: #c5192d;
-    display: block;
+    color: white;
     margin: auto;
-    width: 50%;
+    width: 60%;
+    height:30%;
+    position: absolute;
     text-align: center;
     color: white;
 }
@@ -54,6 +53,7 @@ header > div{
 main {
     background-color: whitesmoke;
     box-shadow: 0 0 1px 0 darkgrey;
+    margin: 100px 150px 10px 150px;
 }
 
 
