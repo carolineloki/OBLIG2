@@ -6,14 +6,13 @@
 body {
     background: url(./assets/img/studentsbg.png);
     background-repeat: no-repeat;
-    background-attachment: fixed;
     background-position: top center;
     background-size: 100% 55vh;
     box-shadow: darkgray;
     font-family: 'Lato', sans-serif;
     font-size: 14px;
     font-size: 1.2rem;
-    margin: 100px 250px 50px 250px;
+    margin: 100px 150px 10px 150px;
 }
 
 @font-face {
