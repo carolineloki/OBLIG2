@@ -179,7 +179,7 @@ a {
     
     header > div{
         width: 85vw;
-        
+        padding-top: 4rem;
     }
     
     main {
